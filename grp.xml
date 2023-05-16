@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="smoke"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.grp.OrangeHRMTest"/>
+      <class name="com.grp.FacebookTest"/>
+      <class name="com.grp.DropDownTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
